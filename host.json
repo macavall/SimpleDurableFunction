@@ -1,0 +1,24 @@
+{
+  "version": "2.0",
+  "extensions": {
+    "durableTask": {
+      "hubName": "MyTaskHub",
+      "storageProvider": {
+        "controlQueueBatchSize": 1,
+        "controlQueueBufferThreshold": 1,
+        "partitionCount": 1,
+        "trackingStoreNamePrefix": "DurableTask"
+      },
+      "maxConcurrentActivityFunctions": 1,
+      "maxConcurrentOrchestratorFunctions": 1
+    }
+  },
+  "logging": {
+    "applicationInsights": {
+      "samplingSettings": {
+        "isEnabled": true,
+        "excludedTypes": "Request"
+      }
+    }
+  }
+}
