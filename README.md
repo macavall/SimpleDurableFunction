@@ -12,7 +12,7 @@ Durable Functions Simple Example of how to watch a Durable Function work Hands-O
   - Import these rules to the Fiddler **AutoResponder**
     ![image](https://user-images.githubusercontent.com/43223084/214461317-d51cc29d-7d56-4506-b6cd-1cd2071bf75e.png)  
   - Ensure the **Configurations** are as shown in the ***Screenshot*** above  
-<br/><br/>  
+
 ### Run the Project and execute the provided URL  
 
   ![image](https://user-images.githubusercontent.com/43223084/214462111-8e8ff5b8-aeba-47e7-83dc-9e5491825884.png)  
