@@ -31,5 +31,12 @@ Durable Functions Simple Example of how to watch a Durable Function work Hands-O
 
 ### After unchecking the **WorkItems Queue** checkbox, the Function will complete execution
 
+---  
+<br/>
+
+# Verbose Logging
+- It is possible to get verbose logging from the Function App Host locally and in Azure
+  - For verbose logging locally, open Visual Studio 2022 and complete the following
+    - d
 
 
