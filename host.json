@@ -15,6 +15,12 @@
     },
     "console": {
       "isEnabled": "true"
+    },
+    "applicationInsights": {
+      "samplingSettings": {
+        "isEnabled": true,
+        "excludedTypes": "Request"
+      }
     }
   },
     "extensions": {
@@ -31,14 +37,6 @@
         },
         "maxConcurrentActivityFunctions": 1,
         "maxConcurrentOrchestratorFunctions": 1
-      }
-    },
-    "logging": {
-      "applicationInsights": {
-        "samplingSettings": {
-          "isEnabled": true,
-          "excludedTypes": "Request"
-        }
       }
     }
   }
