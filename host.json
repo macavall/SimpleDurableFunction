@@ -1,24 +1,42 @@
 {
   "version": "2.0",
-  "extensions": {
-    "durableTask": {
-      "hubName": "MyTaskHub",
-      "storageProvider": {
-        "controlQueueBatchSize": 1,
-        "controlQueueBufferThreshold": 1,
-        "partitionCount": 1,
-        "trackingStoreNamePrefix": "DurableTask"
-      },
-      "maxConcurrentActivityFunctions": 1,
-      "maxConcurrentOrchestratorFunctions": 1
-    }
-  },
   "logging": {
-    "applicationInsights": {
-      "samplingSettings": {
-        "isEnabled": true,
-        "excludedTypes": "Request"
+    "fileLoggingMode": "always",
+    "logLevel": {
+      "default": "Trace",
+      "Host.Results": "Trace",
+      "Function": "Trace",
+      "Host.Aggregator": "Trace",
+      "Microsoft": "Trace",
+      "Host.Triggers.DurableTask": "Trace",
+      "DurableTask.AzureStorage": "Trace",
+      "DurableTask.Core": "Trace"
+    },
+    "console": {
+      "isEnabled": "true"
+    },
+    "extensions": {
+      "durableTask": {
+        "hubName": "MyTaskHub",
+        "storageProvider": {
+          "controlQueueBatchSize": 1,
+          "controlQueueBufferThreshold": 1,
+          "partitionCount": 1
+        },
+        "tracing": {
+          "traceInputsAndOutputs": true,
+          "traceReplayEvents": true
+        },
+        "maxConcurrentActivityFunctions": 1,
+        "maxConcurrentOrchestratorFunctions": 1
+      }
+    },
+    "logging": {
+      "applicationInsights": {
+        "samplingSettings": {
+          "isEnabled": true,
+          "excludedTypes": "Request"
+        }
       }
     }
   }
-}
