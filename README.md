@@ -10,25 +10,26 @@ Durable Functions Simple Example of how to watch a Durable Function work Hands-O
 - Download this Repository
 - Import the ```.\Fiddler\DurableFunctionRules.farx```
   - Import these rules to the Fiddler **AutoResponder**
-  ![image](https://user-images.githubusercontent.com/43223084/214461317-d51cc29d-7d56-4506-b6cd-1cd2071bf75e.png)  
+    ![image](https://user-images.githubusercontent.com/43223084/214461317-d51cc29d-7d56-4506-b6cd-1cd2071bf75e.png)  
   - Ensure the **Configurations** are as shown in the ***Screenshot*** above  
+<br/><br/>  
+### Run the Project and execute the provided URL  
 
-Run the Project and execute the provided URL  
   ![image](https://user-images.githubusercontent.com/43223084/214462111-8e8ff5b8-aeba-47e7-83dc-9e5491825884.png)  
   
-Check the **Storage Emulator Control Queue**  
+### Check the **Storage Emulator Control Queue**  
   ![image](https://user-images.githubusercontent.com/43223084/214461906-50748a0e-5351-4a8b-966d-f76ec110aea0.png)  
 
-Uncheck the **Control Queue Fiddler Rule**  
+### Uncheck the **Control Queue Fiddler Rule**  
 ![2023-01-24_19h46_48](https://user-images.githubusercontent.com/43223084/214462239-2fde958b-66d6-4246-90de-42ea29ae316f.gif)  
 
-Check the **WorkItems Queue** in Storage Explorer  
+### Check the **WorkItems Queue** in Storage Explorer  
 ![image](https://user-images.githubusercontent.com/43223084/214462511-c4a83150-2258-4504-bc16-11a360781470.png)  
 
-Uncheck the **Control Queue Fiddler Rule**  
+### Uncheck the **Control Queue Fiddler Rule**  
 ![2023-01-24_19h49_42](https://user-images.githubusercontent.com/43223084/214462570-2d45f37c-c07d-4d39-aa2d-4366b3e82324.gif)  
 
-After unchecking the **WorkItems Queue** checkbox, the Function will complete execution
+### After unchecking the **WorkItems Queue** checkbox, the Function will complete execution
 
 
 
