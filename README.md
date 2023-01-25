@@ -40,4 +40,5 @@ Durable Functions Simple Example of how to watch a Durable Function work Hands-O
 ![2023-01-24_20h48_36](https://user-images.githubusercontent.com/43223084/214469518-dbd16952-e80e-4354-bf7f-197a55400815.gif)
 ![2023-01-24_20h50_34](https://user-images.githubusercontent.com/43223084/214469723-aab6ccbc-cdf0-4285-9950-2c78968b5808.gif)
 
-
+  - <a href="google.com" target="_blank">Opens in new tab</a>
+  - Check out [Azure Functions Verbose Logging](https://roccosmoderncode.wordpress.com/2022/09/22/functions-verboselogging/)
